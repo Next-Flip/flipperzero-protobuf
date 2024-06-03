@@ -99,6 +99,7 @@ message Main {
         .PB_Storage.RenameRequest storage_rename_request = 30;
         .PB_Storage.BackupCreateRequest storage_backup_create_request = 42;
         .PB_Storage.BackupRestoreRequest storage_backup_restore_request = 43;
+        .PB_Storage.TarExtractRequest storage_tar_extract_request = 71;
         .PB_App.StartRequest app_start_request = 16;
         .PB_App.LockStatusRequest app_lock_status_request = 17;
         .PB_App.LockStatusResponse app_lock_status_response = 18;
