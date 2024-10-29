@@ -45,6 +45,10 @@ message SendInputEventRequest {
     InputType type = 2;
 }
 
+message SendAsciiEventRequest {
+    uint32 value = 1;
+}
+
 message StartVirtualDisplayRequest {
     ScreenFrame first_frame = 1; /**< Optional: screen frame to show */
     bool send_input = 2; /**< Optional: send flipper input */
