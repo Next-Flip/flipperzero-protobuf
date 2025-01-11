@@ -107,6 +107,7 @@ message Main {
         .PB_App.AppLoadFileRequest app_load_file_request = 48;
         .PB_App.AppButtonPressRequest app_button_press_request = 49;
         .PB_App.AppButtonReleaseRequest app_button_release_request = 50;
+        .PB_App.AppButtonPressReleaseRequest app_button_press_release_request = 75;
         .PB_App.GetErrorRequest app_get_error_request = 63;
         .PB_App.GetErrorResponse app_get_error_response = 64;
         .PB_App.DataExchangeRequest app_data_exchange_request = 65;

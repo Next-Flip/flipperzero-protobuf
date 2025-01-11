@@ -30,6 +30,11 @@ message AppButtonPressRequest {
 message AppButtonReleaseRequest {
 }
 
+message AppButtonPressReleaseRequest {
+    string args = 1;
+    int32 index = 2;
+}
+
 enum AppState {
     APP_CLOSED = 0;
     APP_STARTED = 1;
